@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>realfunrecords.com</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation: changeBackground 5s infinite;
+        }
+
+        @keyframes changeBackground {
+            0% { background-color: #ff0000; }
+            25% { background-color: #00ff00; }
+            50% { background-color: #0000ff; }
+            75% { background-color: #ffff00; }
+            100% { background-color: #ff0000; }
+        }
+
+        #image {
+            max-width: 75%;
+            max-height: 75%;
+        }
+    </style>
+</head>
+<body>
+    <img id="image" src="coming soon.png" alt="Centered Image">
+</body>
+</html>
